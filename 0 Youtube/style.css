@@ -1,0 +1,26 @@
+.search-bar {
+    display: block;
+}
+
+.thumbnail {
+    aspect-ratio: 16/9;
+    width: 300px;
+    object-fit: cover;
+}
+
+.video-title {
+    width: 300px;
+}
+
+.video-preview {
+    width: 300px;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+    border: solid 1px black;
+}
+
+.video-info,
+.channel-picture {
+    display: inline-block;
+}

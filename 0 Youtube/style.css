@@ -8,22 +8,19 @@ p {
     margin-bottom: 0;
 }
 
-.video-preview {
-    width: 300px;
-    display: inline-block;
-    margin-right: 15px;
-    vertical-align: top;
-}
-
 .thumbnail-row {
     margin-bottom: 10px;
-    ;
 }
 
 .thumbnail {
     aspect-ratio: 16/9;
-    width: 300px;
+    width: 100%;
     object-fit: cover;
+}
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
 .video-title {
@@ -45,13 +42,15 @@ p {
     margin-bottom: 6px;
 }
 
-.video-info,
-.pfp {
-    display: inline-block;
-}
-
 .pfp {
     width: 40px;
     border-radius: 50%;
     vertical-align: top;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 40px;
 }
